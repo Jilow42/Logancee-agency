@@ -12,16 +12,13 @@
 
 #app {
     margin: 0 auto;
-    background-size: cover;
-    background: url("../assets/img/drunk_moose_09_08_2011.jpg") no-repeat;
     height: 3100px;
 }
 
 #app header {
     filter: grayscale(90%);
     background: url("../assets/img/drunk_moose_09_08_2011.jpg") no-repeat;
-    background-size: cover;
-    width: 100%;
+    background-size: 100% auto;
     height: 945px;
 }
 
@@ -50,5 +47,8 @@
 
     background: #cdcdcd;
     border-radius: 3px;
+
+}
+.container{
 
 }
