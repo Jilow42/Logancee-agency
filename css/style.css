@@ -15,7 +15,7 @@
     height: 3100px;
     letter-spacing: 1px;
     font-family: 'Arial';
-    color: #ffffff;
+    color: #fff;
 }
 
 #app header {
@@ -45,14 +45,13 @@
     height: 4px;
     margin-bottom: 5px;
     position: relative;
-
-    background: #cdcdcd;
+    background: #fff;
     border-radius: 3px;
 
 }
 .container {
     margin: 0 auto;
-    max-width: 1080px;
+    max-width: 960px;
     width: 90%;
 }
 .container h1{
@@ -70,7 +69,11 @@
 .container p{
     font-weight: normal;
     font-size: 12px;
-    width: 27%;
+    width: 30%;
     padding: 25px 0;
+}
+svg{
+    fill: #fff;
+    padding-top: 75px;
 }
 
