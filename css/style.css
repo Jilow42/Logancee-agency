@@ -124,13 +124,11 @@ svg {
 .right-img {
   display: grid;
   grid-template-columns: 4fr 1fr;
-  width: 1px;
+}*
+.left-img {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
 }
-
-.main-img {
-  float: right;
-}
-
 .main ul {
   display: flex;
   align-content: space-between;
