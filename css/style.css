@@ -13,6 +13,10 @@
 #app {
     margin: 0 auto;
     height: 3100px;
+    letter-spacing: 1px;
+    font-family: 'Arial';
+    font-size: 23px;
+    color: #ffffff;
 }
 
 #app header {
@@ -27,10 +31,6 @@
 }
 
 .header--title h1 {
-    letter-spacing: 1px;
-    font-family: 'Arial';
-    font-size: 23px;
-    color: #ffffff;
     font-weight: bold;}
 
 .burger-menu {
@@ -49,6 +49,8 @@
     border-radius: 3px;
 
 }
-.container{
-
+.container {
+    margin: 0 auto;
+    max-width: 1080px;
+    width: 90%;
 }
