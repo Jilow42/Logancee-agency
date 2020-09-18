@@ -111,6 +111,19 @@ svg{
 }
 .main-img{
     float: right;
-    
-    
 }
+
+footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+footer p{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
