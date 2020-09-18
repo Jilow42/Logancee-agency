@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+/**
+* Reset
+*/
+
+@import "reset.css";
+
+/**
+* Components
+*/
+
+#app{
+    margin: 0 auto;
+    background-size: cover;
+}
+#app header{
+    filter: grayscale(90%);
+    background: url("../assets/img/drunk_moose_09_08_2011.jpg") no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 945px;
+}
+.header--title{
+    font-size: 30px;
+    color: blanchedalmond;
+    font-weight: bold;
+    font-family: 'Arial';
+}
+.header--title h1{
+    padding: 35px 0 35px 30px;
+}
